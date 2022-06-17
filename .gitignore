@@ -5,3 +5,15 @@ settings.ini
 CMakeSettings.json
 out/
 .vs/
+
+.github/
+docs/
+extern/
+testbed/
+unit-test/
+build*.*
+CMakeLists.txt
+deploy_docs.sh
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
