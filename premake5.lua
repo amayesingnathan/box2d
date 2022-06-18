@@ -2,7 +2,7 @@ project "box2d"
 	kind "StaticLib"
 	language "C++"
 	cppdialect "C++17"
-    staticruntime "on"
+    staticruntime "off"
 
     targetdir 	("%{wks.location}/bin/%{prj.name}/" .. outputDir)
     objdir 		("%{wks.location}/obj/%{prj.name}/" .. outputDir)
