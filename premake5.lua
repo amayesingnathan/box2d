@@ -23,26 +23,10 @@ project "box2d"
 		pic "On"
 		systemversion "latest"
         
-    filter "configurations:x64d"
+    filter "configurations:Debug"
 		runtime "Debug"
 		symbols "on"
 
-	filter "configurations:ARMd"
-		runtime "Debug"
-		symbols "on"
-
-	filter "configurations:ARM64d"
-		runtime "Debug"
-		symbols "on"
-
-	filter "configurations:x64"
-		runtime "Release"
-		optimize "on"
-
-	filter "configurations:ARM"
-		runtime "Release"
-		optimize "on"
-
-	filter "configurations:ARM64"
+	filter "configurations:Release"
 		runtime "Release"
 		optimize "on"
